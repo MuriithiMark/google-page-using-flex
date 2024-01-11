@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+}
+
+.google-logo {}
+
+.bio {
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    img {
+        width: 20px;
+    }
+}
